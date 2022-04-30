@@ -14,7 +14,7 @@ var question;
         }
         else if (question == 2)
         {
-            document.getElementsByClassName('content')[0].innerHTML=``;
+            location.replace("./gameover-form.html");
             break;
         }
         else 
