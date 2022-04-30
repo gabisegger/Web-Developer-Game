@@ -9,7 +9,7 @@ var question;
 
         if (question == 1) 
         {
-            document.getElementsByClassName('content')[0].innerHTML=``;
+            location.replace("./gameover-pseudo-element.html");
             break;
         }
         else if (question == 2)
