@@ -79,7 +79,7 @@ main{
 
 .final-pages{
     padding-top: 20px;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 70px);
     text-align: center;
 }
 
@@ -126,6 +126,10 @@ main{
     font-size: 35px;
     color: #df1b79;
     text-align: center;
+}
+
+.title-page img{
+    width: 306px;
 }
 
 .subtitle {
@@ -175,7 +179,7 @@ main{
 
 .item p{
     font-size: 26px;
-    color: #142032;
+    color: #df1b79;
 }
 
 .phase{
@@ -228,7 +232,8 @@ footer{
 
 @media screen and (max-width: 760px){
     button{
-        width: 235px;
+        width: 200px;
+        height: 45px;
         font-size: 20px;
         transition: none;
     }
@@ -249,7 +254,7 @@ footer{
     }
     .title{
         font-size: 34px;
-        margin: 25px 0;
+        margin: 10px 0 25px;
         text-align: center;
     }
     .title-page{
@@ -269,6 +274,7 @@ footer{
     }
     .description{
         font-size: 20px;
+        margin-bottom: 40px;
     }
     .final-pages .description, .description-doc{
         margin-bottom: 35px;
