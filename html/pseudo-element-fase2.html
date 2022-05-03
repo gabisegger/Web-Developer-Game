@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="pseudo-element-fase2.js"></script>
-    <title>Web Developer Game</title>
+    <link rel="icon" type="image/x-icon" href="../img/mascote-game.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <script src="../js/pseudo-element-fase2.js"></script>
+    <title>UDeveloper</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="#" alt="Logo"/>
-        </div>
+        <a href="index.html">
+            <div class="logo-question">
+                <img src="../img/mascote-game.png" alt="Logo"/>
+                <h1>UDeveloper</h1>
+            </div>
+        </a>
     </header>
-    <main>
-        <div class="title">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <main class="page-question">
+        <div class="center">
+            <h2 class="title">::Pseudo-Elementos</h2>
+            <p class="description">
+                Qual propriedade é obrigatória dentro de um ::after ou ::before?
+            </p>
+            <ul>
+                <li>1- insert</li>
+                <li>2- content</li>
+            </ul>
+            <button class="button" onclick="replyButton()">Responda</button>
         </div>
-        <p class="question">
-            Qual propriedade é obrigatória dentro de um ::after ou ::before?
-        </p>
-        <ul>
-            <li>1- insert</li>
-            <li>2- content</li>
-        </ul>
-        <button class="button" onclick="replyButton()">Responder</button>
     </main>
     <footer>
         <div>
-            <span>Copyright © 2022 Adote aqui Company - Todos os direitos reservados</span>
+            <span>Copyright © 2022 UDeveloper Company - Todos os direitos reservados</span>
         </div>
     </footer>
 </body>
