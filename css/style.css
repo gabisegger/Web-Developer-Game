@@ -8,6 +8,25 @@ a{
     cursor: pointer;
 }
 
+ul{
+    list-style: none;
+    text-align: left;
+    display: grid;
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+ul li{
+    background: #fbd5e2;
+    padding: 15px;
+    border-radius: 15px;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 button{
     width: 250px;
     height: 50px;
@@ -17,6 +36,9 @@ button{
     border: none;
     margin-bottom: 30px;
     transition: 300ms;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover{
@@ -47,11 +69,31 @@ main{
     min-height: calc(100vh - 264.3px)
 }
 
+.page-question{
+    min-height: calc(100vh - 146.02px)
+}
+
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
+}
+
+.logo-question {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 15px 10px 0;
+}
+
+.logo-question img{
+    width: 90px;
+}
+
+.logo-question h1{
+    font-size: 35px;
+    color: #df1b79;
 }
 
 .logo img{
