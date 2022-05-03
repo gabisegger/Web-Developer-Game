@@ -152,6 +152,14 @@ main{
     background: #fbd5e2;
     margin: auto;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p{
+    font-size: 26px;
+    color: #142032;
 }
 
 .phase{
