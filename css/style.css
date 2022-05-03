@@ -260,6 +260,9 @@ footer{
     .title-page{
         font-size: 25px;
     }
+    .congratulations img{
+        width: 290px;
+    }
     .subtitle{
         font-size: 18px;
         margin-bottom: 25px;
