@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('CiutadellaRounded-Regular4.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('CiutadellaRounded-Regular3.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
