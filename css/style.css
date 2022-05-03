@@ -66,11 +66,21 @@ body{
 }
 
 main{
-    min-height: calc(100vh - 264.3px)
+    min-height: calc(100vh - 264.3px);
+}
+
+.home{
+    min-height: calc(100vh - 234.3px);
 }
 
 .page-question{
-    min-height: calc(100vh - 146.02px)
+    min-height: calc(100vh - 176.02px);
+}
+
+.final-pages{
+    padding-top: 20px;
+    min-height: calc(100vh - 50px);
+    text-align: center;
 }
 
 .logo {
@@ -97,11 +107,11 @@ main{
 }
 
 .logo img{
-    width: 230px;
+    width: 195px;
 }
 
 .logo h1{
-    font-size: 85px;
+    font-size: 80px;
     color: #df1b79;
 }
 
@@ -110,6 +120,12 @@ main{
     color: #fbd5e2;
     text-align: initial;
     margin: 30px 0;
+}
+
+.title-page{
+    font-size: 35px;
+    color: #df1b79;
+    text-align: center;
 }
 
 .subtitle {
@@ -175,6 +191,24 @@ main{
     margin-bottom: 50px;
 }
 
+.final-pages .description{
+    text-align: center;
+}
+
+.description-doc{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.description-doc a{
+    color: #df1b79;
+    transition: filter 0.3s;
+}
+
+.description-doc a:hover{
+    filter: opacity(0.5);
+}
+
 .text{
     font-size: 20px;
     margin-bottom: 35px;
@@ -210,10 +244,16 @@ footer{
     .logo h1{
         font-size: 55px;
     }
+    .logo-question{
+        justify-content: center;
+    }
     .title{
         font-size: 34px;
         margin: 25px 0;
         text-align: center;
+    }
+    .title-page{
+        font-size: 25px;
     }
     .subtitle{
         font-size: 18px;
@@ -229,6 +269,15 @@ footer{
     }
     .description{
         font-size: 20px;
+    }
+    .final-pages .description, .description-doc{
+        margin-bottom: 35px;
+    }
+    .description-doc a:hover {
+        filter: none;
+    }
+    .description-doc a {
+        transition: none;
     }
     footer{
         height: 40px;
