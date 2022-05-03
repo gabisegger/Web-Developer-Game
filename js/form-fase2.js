@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - date \n 2 - number");
+            question = prompt("Para que seja informado a data de nascimento no formulário, queremos um campo que o usuário informe o ano, mês e dia de nascimento. Nesse caso podemos usar qual type? \n \n 1 - date \n 2 - number");
 
         if (question == 1) 
         {

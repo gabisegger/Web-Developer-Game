@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - text \n 2 - textarea");
+            question = prompt("Qual das opções abaixo você usaria para o campo 'Nos envie sua mensagem'? \n \n 1 - text \n 2 - textarea");
 
         if (question == 1) 
         {

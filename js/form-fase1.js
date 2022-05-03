@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - text \n 2 - name");
+            question = prompt("No campo Nome de um formulário, no input usamos qual type? \n \n 1 - text \n 2 - name");
 
         if (question == 1) 
         {

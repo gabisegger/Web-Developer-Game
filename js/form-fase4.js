@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - button \n 2 - submit");
+            question = prompt("Para finalizar nosso formulário, precisamos de um botão para enviar nosso formulário. Qual o type correto? \n \n 1 - button \n 2 - submit");
 
         if (question == 1) 
         {
@@ -15,7 +15,7 @@ var question;
         }
         else if (question == 2)
         {
-            location.replace(".html");
+            location.replace("./congratulations-form.html");
             break;
         }
         else 
