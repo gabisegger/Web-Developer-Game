@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - False \n 2 - True");
+            question = prompt("Agora que você já está craque em Operadores Lógicos, veja a seguinte var:\n var o2 = false || true;\n O que essa var nos retorna? \n \n 1 - False \n 2 - True");
 
         if (question == 1) 
         {
@@ -15,7 +15,7 @@ var question;
         }
         else if (question == 2)
         {
-            location.replace(".html");
+            location.replace("./congratulations-logical-operators.html");
             break;
         }
         else 

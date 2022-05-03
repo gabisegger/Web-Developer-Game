@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - ! \n 2 - ||");
+            question = prompt("Retorna verdadeiro caso um ou mais dos operandos sejam verdadeiros; se ambos forem falsos, retorna falso. Estamos falando de qual operador lógico? \n \n 1 - ! \n 2 - ||");
 
         if (question == 1) 
         {

@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - ! \n 2 - ||");
+            question = prompt("Selecione a opção abaixo que mostre o Operador Lógico NOT: \n \n 1 - ! \n 2 - ||");
 
         if (question == 1) 
         {
