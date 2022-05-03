@@ -5,7 +5,7 @@ var question;
 
         while(question != 1 || question != 2) {
 
-            question = prompt("Qual a opção correta? \n \n 1 - insert \n 2 - content");
+            question = prompt("Qual propriedade é obrigatória dentro de um ::after ou ::before? \n \n 1 - insert \n 2 - content");
 
         if (question == 1) 
         {
